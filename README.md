@@ -1,4 +1,4 @@
-# Curso de GIT
+# Curso de GIT octubre
 
 Este proyecto es un ejemplo de Git 
 

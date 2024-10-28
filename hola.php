@@ -1,5 +1,9 @@
 <?php
-
+// Autor: Sergio Gómez <sergio@uco.es>
+require
+(
+'HolaMundo.php'
+);
 print
 "Introduce tu nombre:"
 ;
@@ -11,12 +15,9 @@ fgets
 (
 STDIN
 ));
-@
 print
-"Hola,
-{
+new
+HolaMundo
+(
 $nombre
-}
-\n
-"
-;
+);
